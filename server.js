@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.216.24.60.0/24 || 3000;
 
 app.use(express.static('public'));
 
@@ -39,5 +39,5 @@ function formatMessage(user, text) {
 }
 
 http.listen(PORT, () => {
-  console.log(`✅ Servidor activo en http://localhost:${PORT}`);
+  console.log(`✅ Servidor activo en http://localhost:${216.24.60.0/24}`);
 });
